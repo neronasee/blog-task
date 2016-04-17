@@ -72,7 +72,7 @@ textarea {
 	padding-left: 10px;
 	padding-right: 10px;
 
-	max-width: 1120px;
+	max-width: 1140px;
 }
 
 .ba-flex-grid {
@@ -86,11 +86,11 @@ textarea {
 	padding: 0 0 20px 20px;
 
 	display: flex;
-	flex-basis: 300px;
+	flex-basis: 340px;
 	flex-grow: 1;
 }
 .ba-item-2-3 {
-	flex-basis: 600px;
+	flex-basis: 680px;
 	flex-grow: 2;
 }
 .ba-post {
