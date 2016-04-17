@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Hans Kendrick';
+    src: url('../fonts/hanskendrick-regular-webfont.eot');
+    src: url('../fonts/hanskendrick-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hanskendrick-regular-webfont.woff2') format('woff2'),
+         url('../fonts/hanskendrick-regular-webfont.woff') format('woff'),
+         url('../fonts/hanskendrick-regular-webfont.ttf') format('truetype'),
+         url('../fonts/hanskendrick-regular-webfont.svg#hans_kendrick_3regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+body{
+	background-color: #e2e7ec;
+	font-size: 22px;
+	line-height: 1.36;
+	font-family: 'Hans Kendrick', sans-serif;
+	text-transform: uppercase;
+	color: #1D1C1C;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 10px;
+	padding-right: 10px;
+
+	max-width: 1120px;
+}
+
+.ba-flex-grid {
+	padding: 90px 0;
+	margin-left: -20px;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.ba-item {
+	padding: 0 0 20px 20px;
+
+	display: flex;
+	flex-basis: 360px;
+	flex-grow: 1;
+}
+.ba-item-2-3 {
+	flex-basis: 740px;
+}
+.ba-post {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.ba-post__link img{
+	display: block;
+	width: 100%;
+}
+.ba-post__date {
+	color: #818181;
+	font-size: 13px;
+	line-height: 2.3;
+	text-transform: uppercase;
+}
+.ba-post__link--big {
+	position: relative;
+}
+.ba-post__body {
+	background-color: #fff;
+	padding: 25px 28px;
+
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.ba-post__body--big {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: #FFF;
+	background: linear-gradient(to bottom, transparent, #000);
+	background-color: transparent;
+
+	justify-content: flex-end;
+}
+.ba-post__title {
+	font-size: 22px;
+
+	flex-grow: 1;
+}
+.ba-author {
+	color: #1d1c1c;
+	text-decoration: none;
+	text-transform: none;
+	color: #818181;
+
+
+	display: flex;
+	align-items: center;
+}
+.ba-author:hover .ba-author__name{
+	color: #1d1c1c;
+}
+.ba-author__name {
+	margin: 0 0 0 10px;
+	transition: color .3s;
+}
